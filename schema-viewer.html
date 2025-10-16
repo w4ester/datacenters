@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Center Schema - Interactive View</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 30px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #1a1a1a;
+      color: #e0e0e0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #4a9eff;
+    }
+    .subtitle {
+      text-align: center;
+      color: #888;
+      margin-bottom: 40px;
+      font-size: 1.1em;
+    }
+    .category {
+      background: #2a2a2a;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 4px solid #4a9eff;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .category:hover {
+      background: #333;
+      transform: translateX(5px);
+    }
+    .category.expanded {
+      border-left-color: #50c878;
+    }
+    .category-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .category-title {
+      font-size: 1.4em;
+      font-weight: 600;
+      color: #4a9eff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .category.expanded .category-title {
+      color: #50c878;
+    }
+    .toggle {
+      font-size: 1.2em;
+      color: #888;
+      transition: transform 0.3s ease;
+    }
+    .category.expanded .toggle {
+      transform: rotate(90deg);
+    }
+    .fields {
+      display: none;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #444;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+    .category.expanded .fields {
+      display: grid;
+    }
+    .field {
+      background: #1f1f1f;
+      padding: 12px 15px;
+      border-radius: 8px;
+      border-left: 3px solid #4a9eff;
+    }
+    .field-name {
+      font-weight: 600;
+      color: #4a9eff;
+      margin-bottom: 4px;
+    }
+    .field-desc {
+      font-size: 0.9em;
+      color: #aaa;
+    }
+    .vision {
+      background: linear-gradient(135deg, #2a4858 0%, #1a2a3a 100%);
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 40px;
+      border: 2px solid #4a9eff;
+    }
+    .vision h2 {
+      color: #50c878;
+      margin-top: 0;
+    }
+    .vision-section {
+      margin: 20px 0;
+    }
+    .vision-section h3 {
+      color: #4a9eff;
+      margin-bottom: 10px;
+    }
+    .vision-section ul {
+      color: #ccc;
+    }
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin: 30px 0;
+    }
+    .stat {
+      background: #2a2a2a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      border-top: 3px solid #4a9eff;
+    }
+    .stat-number {
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #4a9eff;
+    }
+    .stat-label {
+      color: #888;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Data Center Database Schema v2.0</h1>
+    <p class="subtitle">Comprehensive 47-field schema supporting 5 use cases + operational intelligence</p>
+
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-number">47</div>
+        <div class="stat-label">Total Fields</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">11</div>
+        <div class="stat-label">Categories</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">5</div>
+        <div class="stat-label">Use Cases</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">25</div>
+        <div class="stat-label">Current Facilities</div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">🏢 Core Identity</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">id</div><div class="field-desc">Unique identifier</div></div>
+        <div class="field"><div class="field-name">name</div><div class="field-desc">Facility name</div></div>
+        <div class="field"><div class="field-name">operator</div><div class="field-desc">Company/organization</div></div>
+        <div class="field"><div class="field-name">city</div><div class="field-desc">City location</div></div>
+        <div class="field"><div class="field-name">state</div><div class="field-desc">State/province</div></div>
+        <div class="field"><div class="field-name">country</div><div class="field-desc">Country code (USA)</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">📍 Geographic</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">latitude</div><div class="field-desc">Decimal degrees</div></div>
+        <div class="field"><div class="field-name">longitude</div><div class="field-desc">Decimal degrees</div></div>
+        <div class="field"><div class="field-name">nearest_university_miles</div><div class="field-desc">Distance to nearest university</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">🏗️ Facility Details</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">status</div><div class="field-desc">Existing / Under Construction / Permitted</div></div>
+        <div class="field"><div class="field-name">facility_type</div><div class="field-desc">Hyperscale / Colocation / HPC/AI</div></div>
+        <div class="field"><div class="field-name">capacity_mw</div><div class="field-desc">Power capacity (megawatts)</div></div>
+        <div class="field"><div class="field-name">year_opened</div><div class="field-desc">Year operational</div></div>
+        <div class="field"><div class="field-name">size_sqft</div><div class="field-desc">Square footage</div></div>
+        <div class="field"><div class="field-name">url</div><div class="field-desc">Facility website</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">🌱 Sustainability Metrics</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">pue</div><div class="field-desc">Power Usage Effectiveness (1.0 = perfect)</div></div>
+        <div class="field"><div class="field-name">renewable_energy_pct</div><div class="field-desc">% renewable energy (0-100)</div></div>
+        <div class="field"><div class="field-name">water_usage_mgd</div><div class="field-desc">Million gallons per day</div></div>
+        <div class="field"><div class="field-name">water_stress</div><div class="field-desc">Low / Medium / High / Extremely High</div></div>
+        <div class="field"><div class="field-name">cooling_type</div><div class="field-desc">Technology used</div></div>
+        <div class="field"><div class="field-name">carbon_intensity_gco2_kwh</div><div class="field-desc">gCO2 per kWh</div></div>
+        <div class="field"><div class="field-name">certifications</div><div class="field-desc">LEED, Uptime Tier, ISO, etc.</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">🌐 Network & Connectivity</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">connectivity_providers</div><div class="field-desc">ISPs and carriers</div></div>
+        <div class="field"><div class="field-name">network_exchanges</div><div class="field-desc">Peering points</div></div>
+        <div class="field"><div class="field-name">latency_zone_ms</div><div class="field-desc">Latency to major metros</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">💰 Investment & Real Estate</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">cost_tier</div><div class="field-desc">Low / Medium / High</div></div>
+        <div class="field"><div class="field-name">min_commitment_months</div><div class="field-desc">Minimum contract length</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">🎓 Education & Data Sovereignty</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">data_sovereignty</div><div class="field-desc">US-Only / US-Regional / US-West / Flexible</div></div>
+        <div class="field"><div class="field-name">education_pricing</div><div class="field-desc">Yes / No / Possible</div></div>
+        <div class="field"><div class="field-name">api_access</div><div class="field-desc">Programmatic access available</div></div>
+        <div class="field"><div class="field-name">edge_compute</div><div class="field-desc">Edge computing support</div></div>
+        <div class="field"><div class="field-name">suitable_small_workloads</div><div class="field-desc">Good for schools/small orgs</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">⚡ Power & Backup Infrastructure</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">diesel_generators_count</div><div class="field-desc">Number of backup generators on site</div></div>
+        <div class="field"><div class="field-name">generator_capacity_mw</div><div class="field-desc">Total backup power capacity (megawatts)</div></div>
+        <div class="field"><div class="field-name">diesel_fuel_capacity_gallons</div><div class="field-desc">Total diesel fuel storage</div></div>
+        <div class="field"><div class="field-name">ups_capacity_mw</div><div class="field-desc">Uninterruptible Power Supply capacity</div></div>
+        <div class="field"><div class="field-name">battery_backup_minutes</div><div class="field-desc">Battery runtime at full load</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">🔋 Energy Operations</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">grid_operator</div><div class="field-desc">Utility company providing power</div></div>
+        <div class="field"><div class="field-name">energy_sources</div><div class="field-desc">Primary energy sources (grid, solar, wind, nuclear, etc.)</div></div>
+        <div class="field"><div class="field-name">onsite_renewable_generation_mw</div><div class="field-desc">On-site renewable capacity</div></div>
+      </div>
+    </div>
+
+    <div class="category" onclick="toggleCategory(this)">
+      <div class="category-header">
+        <div class="category-title">🏬 Tenant & Occupancy Data</div>
+        <div class="toggle">▶</div>
+      </div>
+      <div class="fields">
+        <div class="field"><div class="field-name">ownership_model</div><div class="field-desc">Single-tenant / Multi-tenant / Hybrid</div></div>
+        <div class="field"><div class="field-name">tenant_count</div><div class="field-desc">Number of distinct tenants</div></div>
+        <div class="field"><div class="field-name">rack_count_total</div><div class="field-desc">Total racks available</div></div>
+        <div class="field"><div class="field-name">rack_count_occupied</div><div class="field-desc">Racks currently in use</div></div>
+        <div class="field"><div class="field-name">rack_utilization_pct</div><div class="field-desc">Percentage of racks occupied (0-100)</div></div>
+        <div class="field"><div class="field-name">major_tenants</div><div class="field-desc">Comma-separated list of known major tenants</div></div>
+      </div>
+    </div>
+
+    <div class="vision">
+      <h2>🎯 Vision: Educational AI Sovereignty</h2>
+
+      <div class="vision-section">
+        <h3>The Problem</h3>
+        <ul>
+          <li>Student data feeds centralized AI systems</li>
+          <li>Schools don't own their trained models</li>
+          <li>Privacy and sovereignty concerns</li>
+          <li>No local control over educational data</li>
+        </ul>
+      </div>
+
+      <div class="vision-section">
+        <h3>The Solution</h3>
+        <ul>
+          <li>Schools host AI models locally at nearby data centers</li>
+          <li>Train models on their own student data</li>
+          <li>Own the resulting models completely</li>
+          <li>Data never leaves their region</li>
+          <li>Community-controlled infrastructure</li>
+        </ul>
+      </div>
+
+      <div class="vision-section">
+        <h3>This Map Enables</h3>
+        <ul>
+          <li>Find nearby facilities with education pricing</li>
+          <li>Identify data sovereignty-compliant options</li>
+          <li>Compare costs and sustainability metrics</li>
+          <li>Plan local AI infrastructure for schools</li>
+          <li><strong>"Carbon capture for educational data"</strong> - keeping student-generated data working for students, not corporations</li>
+        </ul>
+      </div>
+
+      <div class="vision-section">
+        <h3>5 Supported Use Cases</h3>
+        <ul>
+          <li><strong>Sustainability Analysis:</strong> Environmental impact, PUE, renewable energy, water usage, backup power infrastructure</li>
+          <li><strong>Investment & Planning:</strong> Market analysis, construction pipeline, occupancy rates, tenant concentration risk</li>
+          <li><strong>Network Infrastructure:</strong> Connectivity mapping, latency optimization, peering strategy</li>
+          <li><strong>Education Data Sovereignty:</strong> Local AI hosting, student data ownership, cost-effective options, capacity planning</li>
+          <li><strong>Operational Intelligence:</strong> Generator dependency, energy source diversification, rack utilization, tenant analysis, backup power readiness</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleCategory(el) {
+      el.classList.toggle('expanded');
+    }
+
+    // Auto-expand first category on load
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelector('.category').classList.add('expanded');
+    });
+  </script>
+</body>
+</html>
