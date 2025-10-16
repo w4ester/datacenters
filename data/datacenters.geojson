@@ -5,101 +5,426 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Metro Core East",
-        "operator": "Acme Cloud",
+        "name": "AWS Northern Virginia",
+        "operator": "Amazon Web Services",
         "status": "Existing",
-        "capacity_mw": 320,
+        "capacity_mw": 450,
         "water_stress": "Medium",
         "city": "Ashburn",
         "state": "VA",
-        "url": "https://example.com/metro-core-east"
+        "url": "https://aws.amazon.com/about-aws/global-infrastructure/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -77.48,
-          39.03
-        ]
+        "coordinates": [-77.4875, 39.0437]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Riverbend AI Campus",
-        "operator": "Nimbus Compute",
-        "status": "Permitted",
-        "capacity_mw": 260,
+        "name": "Switch TAHOE RENO 1",
+        "operator": "Switch",
+        "status": "Existing",
+        "capacity_mw": 130,
+        "water_stress": "High",
+        "city": "Reno",
+        "state": "NV",
+        "url": "https://www.switch.com/tahoe-reno/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8138, 39.5296]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meta Monroe Data Center",
+        "operator": "Meta",
+        "status": "Under Construction",
+        "capacity_mw": 750,
+        "water_stress": "Low",
+        "city": "Monroe",
+        "state": "LA",
+        "url": "https://datacenters.atmeta.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.1193, 32.5093]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Equinix Ashburn Campus",
+        "operator": "Equinix",
+        "status": "Existing",
+        "capacity_mw": 280,
+        "water_stress": "Medium",
+        "city": "Ashburn",
+        "state": "VA",
+        "url": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4800, 39.0500]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Google Columbus Data Center",
+        "operator": "Google",
+        "status": "Existing",
+        "capacity_mw": 320,
         "water_stress": "Low",
         "city": "Columbus",
         "state": "OH",
-        "url": "https://example.com/riverbend-ai"
+        "url": "https://www.google.com/about/datacenters/locations/columbus/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -83.0,
-          39.97
-        ]
+        "coordinates": [-82.9988, 39.9612]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Desert Edge DC",
-        "operator": "Canyon Data",
+        "name": "Meta Prineville Data Center",
+        "operator": "Meta",
+        "status": "Existing",
+        "capacity_mw": 210,
+        "water_stress": "Low",
+        "city": "Prineville",
+        "state": "OR",
+        "url": "https://datacenters.atmeta.com/us-locations/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.8342, 44.2999]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CoreWeave Lancaster AI Campus",
+        "operator": "CoreWeave",
         "status": "Under Construction",
-        "capacity_mw": 150,
+        "capacity_mw": 480,
+        "water_stress": "Low",
+        "city": "Lancaster",
+        "state": "PA",
+        "url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.3055, 40.0379]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stargate AI Campus Abilene",
+        "operator": "Oracle/OpenAI",
+        "status": "Permitted",
+        "capacity_mw": 1000,
+        "water_stress": "Medium",
+        "city": "Abilene",
+        "state": "TX",
+        "url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.7331, 32.4487]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meta El Paso Campus",
+        "operator": "Meta",
+        "status": "Permitted",
+        "capacity_mw": 1000,
         "water_stress": "High",
+        "city": "El Paso",
+        "state": "TX",
+        "url": "https://datacenters.atmeta.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.4850, 31.7619]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Google Lincoln Data Center",
+        "operator": "Google",
+        "status": "Under Construction",
+        "capacity_mw": 380,
+        "water_stress": "Low",
+        "city": "Lincoln",
+        "state": "NE",
+        "url": "https://www.google.com/about/datacenters/locations/lincoln/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7026, 40.8136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Google Mesa Data Center",
+        "operator": "Google",
+        "status": "Under Construction",
+        "capacity_mw": 340,
+        "water_stress": "Extremely High",
+        "city": "Mesa",
+        "state": "AZ",
+        "url": "https://www.google.com/about/datacenters/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.8315, 33.4152]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microsoft Mount Pleasant Campus",
+        "operator": "Microsoft",
+        "status": "Under Construction",
+        "capacity_mw": 290,
+        "water_stress": "Low",
+        "city": "Mount Pleasant",
+        "state": "WI",
+        "url": "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.8856, 42.7209]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Digital Realty Phoenix",
+        "operator": "Digital Realty",
+        "status": "Existing",
+        "capacity_mw": 95,
+        "water_stress": "Extremely High",
         "city": "Phoenix",
         "state": "AZ",
-        "url": "https://example.com/desert-edge"
+        "url": "https://www.digitalrealty.com/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -112.074,
-          33.448
-        ]
+        "coordinates": [-112.0740, 33.4484]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Prairie Grid Park",
-        "operator": "Great Plains Compute",
-        "status": "Existing",
-        "capacity_mw": 80,
-        "water_stress": "Low",
-        "city": "Kansas City",
-        "state": "MO",
-        "url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.5786,
-          39.0997
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Coastal Fog Hub",
-        "operator": "Pacific Edge",
+        "name": "Vantage Frontier Campus",
+        "operator": "Vantage Data Centers",
         "status": "Permitted",
-        "capacity_mw": 480,
+        "capacity_mw": 1400,
         "water_stress": "Medium",
-        "city": "Hillsboro",
-        "state": "OR",
+        "city": "Albany",
+        "state": "TX",
+        "url": "https://vantage-dc.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.2967, 32.7282]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meta River Ridge Indiana",
+        "operator": "Meta",
+        "status": "Under Construction",
+        "capacity_mw": 420,
+        "water_stress": "Low",
+        "city": "Jeffersonville",
+        "state": "IN",
+        "url": "https://datacenters.atmeta.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-85.7372, 38.2776]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Applied Digital Polaris Forge 2",
+        "operator": "Applied Digital",
+        "status": "Under Construction",
+        "capacity_mw": 280,
+        "water_stress": "Low",
+        "city": "Harwood",
+        "state": "ND",
         "url": ""
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [
-          -122.9898,
-          45.5229
-        ]
+        "coordinates": [-96.9092, 46.9869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vantage Storey County Campus",
+        "operator": "Vantage Data Centers",
+        "status": "Under Construction",
+        "capacity_mw": 224,
+        "water_stress": "High",
+        "city": "Reno",
+        "state": "NV",
+        "url": "https://vantage-dc.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.7540, 39.4800]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CyrusOne Dallas",
+        "operator": "CyrusOne",
+        "status": "Existing",
+        "capacity_mw": 155,
+        "water_stress": "Medium",
+        "city": "Dallas",
+        "state": "TX",
+        "url": "https://cyrusone.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7970, 32.7767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "QTS Atlanta Metro",
+        "operator": "QTS Realty Trust",
+        "status": "Existing",
+        "capacity_mw": 175,
+        "water_stress": "Medium",
+        "city": "Atlanta",
+        "state": "GA",
+        "url": "https://www.qtsdatacenters.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.3880, 33.7490]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlas Coweta County Campus",
+        "operator": "Atlas Development",
+        "status": "Permitted",
+        "capacity_mw": 850,
+        "water_stress": "Medium",
+        "city": "Newnan",
+        "state": "GA",
+        "url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.7999, 33.3807]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "STACK Infrastructure Chicago",
+        "operator": "STACK Infrastructure",
+        "status": "Existing",
+        "capacity_mw": 185,
+        "water_stress": "Low",
+        "city": "Chicago",
+        "state": "IL",
+        "url": "https://www.stackinfra.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6298, 41.8781]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Microsoft Des Moines",
+        "operator": "Microsoft",
+        "status": "Existing",
+        "capacity_mw": 265,
+        "water_stress": "Low",
+        "city": "Des Moines",
+        "state": "IA",
+        "url": "https://azure.microsoft.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.6091, 41.5868]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Amazon Salem AI Campus",
+        "operator": "Amazon Web Services",
+        "status": "Under Construction",
+        "capacity_mw": 620,
+        "water_stress": "Low",
+        "city": "Salem",
+        "state": "PA",
+        "url": "https://aws.amazon.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.4646, 40.7901]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CoreSite Silicon Valley",
+        "operator": "CoreSite",
+        "status": "Existing",
+        "capacity_mw": 145,
+        "water_stress": "High",
+        "city": "Santa Clara",
+        "state": "CA",
+        "url": "https://www.coresite.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.9552, 37.3541]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Meta Stanton Springs",
+        "operator": "Meta",
+        "status": "Existing",
+        "capacity_mw": 240,
+        "water_stress": "Medium",
+        "city": "Covington",
+        "state": "GA",
+        "url": "https://datacenters.atmeta.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.8602, 33.5968]
       }
     }
   ]
