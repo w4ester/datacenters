@@ -1,0 +1,167 @@
+:root{
+  --bg: #0b1020;
+  --panel: #12182a;
+  --panel-2: #161e36;
+  --text: #e8eefc;
+  --muted: #aab6d3;
+  --accent: #5da7ff;
+  --btn: #243151;
+
+  --existing: #23c55e;         /* green */
+  --permitted: #f59e0b;        /* amber */
+  --construction: #ef4444;     /* red */
+}
+
+/* Reset-ish */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--bg);
+  font: 15px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Arial, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+/* Layout */
+.app-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(180deg, #0c142b, #0a1122);
+  border-bottom: 1px solid #1d2745;
+}
+.brand h1 {
+  margin: 0 0 0.2rem;
+  font-size: 1.1rem;
+  letter-spacing: 0.3px;
+}
+.tagline {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.filters {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.75rem;
+  background: var(--panel);
+  border: 1px solid #1e2a4f;
+  border-radius: 10px;
+  padding: 0.6rem 0.8rem;
+}
+.filters fieldset {
+  margin: 0;
+  padding: 0.3rem 0.6rem 0.6rem;
+  border: 1px solid #243054;
+  border-radius: 8px;
+  background: var(--panel-2);
+  min-width: 180px;
+}
+.filters legend {
+  padding: 0 0.3rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+.chk { display: inline-flex; align-items: center; gap: 0.35rem; margin-right: 0.6rem; }
+.range-row { display: grid; grid-template-columns: 1fr auto; gap: 0.5rem; align-items: center; }
+#minMWVal { color: var(--accent); font-variant-numeric: tabular-nums; }
+
+.search-field input[type="search"] {
+  width: 220px;
+  padding: 0.5rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #2d3a62;
+  background: #0f1730;
+  color: var(--text);
+}
+
+.actions { display: flex; gap: 0.5rem; align-items: center; }
+.btn {
+  appearance: none;
+  border: 1px solid #2a3a67;
+  background: var(--btn);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 0.45rem 0.7rem;
+  cursor: pointer;
+}
+.btn:hover { filter: brightness(1.1); }
+.btn-ghost { background: transparent; }
+
+#map {
+  height: calc(100vh - 120px); /* header + footer approx */
+}
+
+/* Legend */
+.legend {
+  position: fixed;
+  right: 12px;
+  top: 90px;
+  background: var(--panel);
+  border: 1px solid #1f2a4a;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  z-index: 400;
+}
+.legend h2 { margin: 0 0 0.4rem; font-size: 0.95rem; color: var(--muted); }
+.legend ul { list-style: none; margin: 0; padding: 0; }
+.legend li { display: flex; align-items: center; gap: 0.4rem; margin: 0.2rem 0; }
+.dot {
+  display: inline-block;
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  border: 1px solid #0006;
+  box-shadow: 0 0 0 2px #0002 inset;
+}
+.dot-existing { background: var(--existing); }
+.dot-permitted { background: var(--permitted); }
+.dot-construction { background: var(--construction); }
+
+.app-footer {
+  padding: 0.6rem 1rem;
+  border-top: 1px solid #1d2745;
+  color: var(--muted);
+  font-size: 0.86rem;
+  background: #0a1122;
+}
+
+/* Marker dots via DivIcon */
+.marker-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px #0007;
+}
+.marker-existing { background: var(--existing); }
+.marker-permitted { background: var(--permitted); }
+.marker-construction { background: var(--construction); }
+
+/* Popup content */
+.popup h3 {
+  margin: 0 0 0.2rem;
+  font-size: 1.02rem;
+}
+.popup .meta {
+  margin: 0; padding: 0;
+  list-style: none;
+  color: var(--muted);
+}
+.popup .meta li { margin: 0.1rem 0; }
+.popup a { color: var(--accent); text-decoration: none; }
+.popup a:hover { text-decoration: underline; }
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .filters { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(200px, 1fr)); }
+  .search-field input[type="search"] { width: 100%; }
+  #map { height: calc(100vh - 160px); }
+}
+@media (max-width: 640px) {
+  .app-header { grid-template-columns: 1fr; }
+  .filters { grid-template-columns: 1fr; }
+  .legend { top: auto; bottom: 80px; }
+}

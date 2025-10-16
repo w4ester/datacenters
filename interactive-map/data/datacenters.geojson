@@ -1,0 +1,106 @@
+{
+  "type": "FeatureCollection",
+  "name": "datacenters",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Metro Core East",
+        "operator": "Acme Cloud",
+        "status": "Existing",
+        "capacity_mw": 320,
+        "water_stress": "Medium",
+        "city": "Ashburn",
+        "state": "VA",
+        "url": "https://example.com/metro-core-east"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.48,
+          39.03
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riverbend AI Campus",
+        "operator": "Nimbus Compute",
+        "status": "Permitted",
+        "capacity_mw": 260,
+        "water_stress": "Low",
+        "city": "Columbus",
+        "state": "OH",
+        "url": "https://example.com/riverbend-ai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0,
+          39.97
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Desert Edge DC",
+        "operator": "Canyon Data",
+        "status": "Under Construction",
+        "capacity_mw": 150,
+        "water_stress": "High",
+        "city": "Phoenix",
+        "state": "AZ",
+        "url": "https://example.com/desert-edge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.074,
+          33.448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Prairie Grid Park",
+        "operator": "Great Plains Compute",
+        "status": "Existing",
+        "capacity_mw": 80,
+        "water_stress": "Low",
+        "city": "Kansas City",
+        "state": "MO",
+        "url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5786,
+          39.0997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Coastal Fog Hub",
+        "operator": "Pacific Edge",
+        "status": "Permitted",
+        "capacity_mw": 480,
+        "water_stress": "Medium",
+        "city": "Hillsboro",
+        "state": "OR",
+        "url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9898,
+          45.5229
+        ]
+      }
+    }
+  ]
+}

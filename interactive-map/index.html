@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1,viewport-fit=cover"
+  />
+  <title>US Data Centers — Interactive Map</title>
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin="anonymous"
+  />
+  <!-- MarkerCluster -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <noscript>
+    <div style="padding:1rem;background:#fee;border-bottom:1px solid #fbb;color:#900;">
+      This site requires JavaScript to display the interactive map.
+    </div>
+  </noscript>
+
+  <header class="app-header">
+    <div class="brand">
+      <h1>US Data Centers — Interactive Map</h1>
+      <p class="tagline">Filter by status, capacity, and text search</p>
+    </div>
+
+    <form id="filters" class="filters" autocomplete="off">
+      <fieldset>
+        <legend>Status</legend>
+        <label class="chk">
+          <input type="checkbox" name="status" value="Existing" checked />
+          Existing
+        </label>
+        <label class="chk">
+          <input type="checkbox" name="status" value="Permitted" checked />
+          Permitted
+        </label>
+        <label class="chk">
+          <input type="checkbox" name="status" value="Under Construction" checked />
+          Under Construction
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Min. Capacity (MW)</legend>
+        <div class="range-row">
+          <input type="range" id="minMW" name="minMW" min="0" max="600" value="0" step="10" />
+          <output id="minMWVal" for="minMW">0</output>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Water Stress</legend>
+        <select id="waterStress" name="waterStress">
+          <option value="">Any</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+          <option value="Extremely High">Extremely High</option>
+        </select>
+      </fieldset>
+
+      <fieldset class="search-field">
+        <legend>Search</legend>
+        <input
+          type="search"
+          id="q"
+          name="q"
+          placeholder="Name, operator, city, state…"
+          inputmode="search"
+          aria-label="Search by name, operator, city, or state"
+        />
+      </fieldset>
+
+      <div class="actions">
+        <button type="button" id="fitBtn" class="btn">Fit to results</button>
+        <button type="reset" id="resetBtn" class="btn btn-ghost">Reset</button>
+      </div>
+    </form>
+  </header>
+
+  <main id="map" role="application" aria-label="Interactive map of data centers"></main>
+
+  <aside class="legend" aria-label="Legend">
+    <h2>Legend</h2>
+    <ul>
+      <li><span class="dot dot-existing"></span> Existing</li>
+      <li><span class="dot dot-permitted"></span> Permitted</li>
+      <li><span class="dot dot-construction"></span> Under Construction</li>
+    </ul>
+  </aside>
+
+  <footer class="app-footer">
+    <p>
+      Basemap © OpenStreetMap contributors • Clusters by Leaflet.markercluster.
+      For heavy traffic, consider your own tile service.
+    </p>
+  </footer>
+
+  <!-- JS libs -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin="anonymous"
+    defer
+  ></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" defer></script>
+
+  <!-- App -->
+  <script src="js/app.js" defer></script>
+</body>
+</html>
