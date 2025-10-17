@@ -1,0 +1,327 @@
+{
+  "1": {
+    "operator": "Amazon Web Services",
+    "location": "Ashburn, VA",
+    "career_page": "https://www.amazon.jobs/en/search?base_query=data+center&loc_query=",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Amazon+Web+Services%20Ashburn&location=Ashburn%2C%20VA",
+      "indeed": "https://www.indeed.com/jobs?q=Amazon+Web+Services%20Ashburn&l=Ashburn%2C%20VA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Amazon+Web+Services%20Ashburn&locT=C&locId=Ashburn"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964914",
+    "hiring_status": "Unknown"
+  },
+  "2": {
+    "operator": "Switch",
+    "location": "Reno, NV",
+    "career_page": "https://www.switch.com/careers/",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Switch%20Reno&location=Reno%2C%20NV",
+      "indeed": "https://www.indeed.com/jobs?q=Switch%20Reno&l=Reno%2C%20NV",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Switch%20Reno&locT=C&locId=Reno"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964943",
+    "hiring_status": "Unknown"
+  },
+  "3": {
+    "operator": "Meta",
+    "location": "Monroe, LA",
+    "career_page": "https://www.metacareers.com/jobs?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Meta%20Monroe&location=Monroe%2C%20LA",
+      "indeed": "https://www.indeed.com/jobs?q=Meta%20Monroe&l=Monroe%2C%20LA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Meta%20Monroe&locT=C&locId=Monroe"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964950",
+    "hiring_status": "Unknown"
+  },
+  "4": {
+    "operator": "Equinix",
+    "location": "Ashburn, VA",
+    "career_page": "https://careers.equinix.com/jobs",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Equinix%20Ashburn&location=Ashburn%2C%20VA",
+      "indeed": "https://www.indeed.com/jobs?q=Equinix%20Ashburn&l=Ashburn%2C%20VA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Equinix%20Ashburn&locT=C&locId=Ashburn"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964956",
+    "hiring_status": "Unknown"
+  },
+  "5": {
+    "operator": "Google",
+    "location": "Columbus, OH",
+    "career_page": "https://www.google.com/about/careers/applications/jobs/results/?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Google%20Columbus&location=Columbus%2C%20OH",
+      "indeed": "https://www.indeed.com/jobs?q=Google%20Columbus&l=Columbus%2C%20OH",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Google%20Columbus&locT=C&locId=Columbus"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964962",
+    "hiring_status": "Unknown"
+  },
+  "6": {
+    "operator": "Meta",
+    "location": "Prineville, OR",
+    "career_page": "https://www.metacareers.com/jobs?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Meta%20Prineville&location=Prineville%2C%20OR",
+      "indeed": "https://www.indeed.com/jobs?q=Meta%20Prineville&l=Prineville%2C%20OR",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Meta%20Prineville&locT=C&locId=Prineville"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964967",
+    "hiring_status": "Unknown"
+  },
+  "7": {
+    "operator": "CoreWeave",
+    "location": "Lancaster, PA",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=CoreWeave%20Lancaster&location=Lancaster%2C%20PA",
+      "indeed": "https://www.indeed.com/jobs?q=CoreWeave%20Lancaster&l=Lancaster%2C%20PA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=CoreWeave%20Lancaster&locT=C&locId=Lancaster"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964973",
+    "hiring_status": "Unknown"
+  },
+  "8": {
+    "operator": "Oracle/OpenAI",
+    "location": "Abilene, TX",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Oracle%2FOpenAI%20Abilene&location=Abilene%2C%20TX",
+      "indeed": "https://www.indeed.com/jobs?q=Oracle%2FOpenAI%20Abilene&l=Abilene%2C%20TX",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Oracle%2FOpenAI%20Abilene&locT=C&locId=Abilene"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.964997",
+    "hiring_status": "Unknown"
+  },
+  "9": {
+    "operator": "Meta",
+    "location": "El Paso, TX",
+    "career_page": "https://www.metacareers.com/jobs?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Meta%20El+Paso&location=El+Paso%2C%20TX",
+      "indeed": "https://www.indeed.com/jobs?q=Meta%20El+Paso&l=El+Paso%2C%20TX",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Meta%20El+Paso&locT=C&locId=El+Paso"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965005",
+    "hiring_status": "Unknown"
+  },
+  "10": {
+    "operator": "Google",
+    "location": "Lincoln, NE",
+    "career_page": "https://www.google.com/about/careers/applications/jobs/results/?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Google%20Lincoln&location=Lincoln%2C%20NE",
+      "indeed": "https://www.indeed.com/jobs?q=Google%20Lincoln&l=Lincoln%2C%20NE",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Google%20Lincoln&locT=C&locId=Lincoln"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965011",
+    "hiring_status": "Unknown"
+  },
+  "11": {
+    "operator": "Google",
+    "location": "Mesa, AZ",
+    "career_page": "https://www.google.com/about/careers/applications/jobs/results/?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Google%20Mesa&location=Mesa%2C%20AZ",
+      "indeed": "https://www.indeed.com/jobs?q=Google%20Mesa&l=Mesa%2C%20AZ",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Google%20Mesa&locT=C&locId=Mesa"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965016",
+    "hiring_status": "Unknown"
+  },
+  "12": {
+    "operator": "Microsoft",
+    "location": "Mount Pleasant, WI",
+    "career_page": "https://careers.microsoft.com/us/en/search-results?keywords=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Microsoft%20Mount+Pleasant&location=Mount+Pleasant%2C%20WI",
+      "indeed": "https://www.indeed.com/jobs?q=Microsoft%20Mount+Pleasant&l=Mount+Pleasant%2C%20WI",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Microsoft%20Mount+Pleasant&locT=C&locId=Mount+Pleasant"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965022",
+    "hiring_status": "Unknown"
+  },
+  "13": {
+    "operator": "Digital Realty",
+    "location": "Phoenix, AZ",
+    "career_page": "https://www.digitalrealty.com/careers",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Digital+Realty%20Phoenix&location=Phoenix%2C%20AZ",
+      "indeed": "https://www.indeed.com/jobs?q=Digital+Realty%20Phoenix&l=Phoenix%2C%20AZ",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Digital+Realty%20Phoenix&locT=C&locId=Phoenix"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965074",
+    "hiring_status": "Unknown"
+  },
+  "14": {
+    "operator": "Vantage Data Centers",
+    "location": "Albany, TX",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Vantage+Data+Centers%20Albany&location=Albany%2C%20TX",
+      "indeed": "https://www.indeed.com/jobs?q=Vantage+Data+Centers%20Albany&l=Albany%2C%20TX",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Vantage+Data+Centers%20Albany&locT=C&locId=Albany"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965080",
+    "hiring_status": "Unknown"
+  },
+  "15": {
+    "operator": "Meta",
+    "location": "Jeffersonville, IN",
+    "career_page": "https://www.metacareers.com/jobs?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Meta%20Jeffersonville&location=Jeffersonville%2C%20IN",
+      "indeed": "https://www.indeed.com/jobs?q=Meta%20Jeffersonville&l=Jeffersonville%2C%20IN",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Meta%20Jeffersonville&locT=C&locId=Jeffersonville"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965085",
+    "hiring_status": "Unknown"
+  },
+  "16": {
+    "operator": "Applied Digital",
+    "location": "Harwood, ND",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Applied+Digital%20Harwood&location=Harwood%2C%20ND",
+      "indeed": "https://www.indeed.com/jobs?q=Applied+Digital%20Harwood&l=Harwood%2C%20ND",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Applied+Digital%20Harwood&locT=C&locId=Harwood"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965090",
+    "hiring_status": "Unknown"
+  },
+  "17": {
+    "operator": "Vantage Data Centers",
+    "location": "Reno, NV",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Vantage+Data+Centers%20Reno&location=Reno%2C%20NV",
+      "indeed": "https://www.indeed.com/jobs?q=Vantage+Data+Centers%20Reno&l=Reno%2C%20NV",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Vantage+Data+Centers%20Reno&locT=C&locId=Reno"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965096",
+    "hiring_status": "Unknown"
+  },
+  "18": {
+    "operator": "CyrusOne",
+    "location": "Dallas, TX",
+    "career_page": "https://www.cyrusone.com/careers/",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=CyrusOne%20Dallas&location=Dallas%2C%20TX",
+      "indeed": "https://www.indeed.com/jobs?q=CyrusOne%20Dallas&l=Dallas%2C%20TX",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=CyrusOne%20Dallas&locT=C&locId=Dallas"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965101",
+    "hiring_status": "Unknown"
+  },
+  "19": {
+    "operator": "QTS Realty Trust",
+    "location": "Atlanta, GA",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=QTS+Realty+Trust%20Atlanta&location=Atlanta%2C%20GA",
+      "indeed": "https://www.indeed.com/jobs?q=QTS+Realty+Trust%20Atlanta&l=Atlanta%2C%20GA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=QTS+Realty+Trust%20Atlanta&locT=C&locId=Atlanta"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965107",
+    "hiring_status": "Unknown"
+  },
+  "20": {
+    "operator": "Atlas Development",
+    "location": "Newnan, GA",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Atlas+Development%20Newnan&location=Newnan%2C%20GA",
+      "indeed": "https://www.indeed.com/jobs?q=Atlas+Development%20Newnan&l=Newnan%2C%20GA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Atlas+Development%20Newnan&locT=C&locId=Newnan"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965112",
+    "hiring_status": "Unknown"
+  },
+  "21": {
+    "operator": "STACK Infrastructure",
+    "location": "Chicago, IL",
+    "career_page": null,
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=STACK+Infrastructure%20Chicago&location=Chicago%2C%20IL",
+      "indeed": "https://www.indeed.com/jobs?q=STACK+Infrastructure%20Chicago&l=Chicago%2C%20IL",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=STACK+Infrastructure%20Chicago&locT=C&locId=Chicago"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965118",
+    "hiring_status": "Unknown"
+  },
+  "22": {
+    "operator": "Microsoft",
+    "location": "Des Moines, IA",
+    "career_page": "https://careers.microsoft.com/us/en/search-results?keywords=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Microsoft%20Des+Moines&location=Des+Moines%2C%20IA",
+      "indeed": "https://www.indeed.com/jobs?q=Microsoft%20Des+Moines&l=Des+Moines%2C%20IA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Microsoft%20Des+Moines&locT=C&locId=Des+Moines"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965123",
+    "hiring_status": "Unknown"
+  },
+  "23": {
+    "operator": "Amazon Web Services",
+    "location": "Salem, PA",
+    "career_page": "https://www.amazon.jobs/en/search?base_query=data+center&loc_query=",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Amazon+Web+Services%20Salem&location=Salem%2C%20PA",
+      "indeed": "https://www.indeed.com/jobs?q=Amazon+Web+Services%20Salem&l=Salem%2C%20PA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Amazon+Web+Services%20Salem&locT=C&locId=Salem"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965129",
+    "hiring_status": "Unknown"
+  },
+  "24": {
+    "operator": "CoreSite",
+    "location": "Santa Clara, CA",
+    "career_page": "https://www.coresite.com/careers",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=CoreSite%20Santa+Clara&location=Santa+Clara%2C%20CA",
+      "indeed": "https://www.indeed.com/jobs?q=CoreSite%20Santa+Clara&l=Santa+Clara%2C%20CA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=CoreSite%20Santa+Clara&locT=C&locId=Santa+Clara"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965141",
+    "hiring_status": "Unknown"
+  },
+  "25": {
+    "operator": "Meta",
+    "location": "Covington, GA",
+    "career_page": "https://www.metacareers.com/jobs?q=data%20center",
+    "aggregator_urls": {
+      "linkedin": "https://www.linkedin.com/jobs/search/?keywords=Meta%20Covington&location=Covington%2C%20GA",
+      "indeed": "https://www.indeed.com/jobs?q=Meta%20Covington&l=Covington%2C%20GA",
+      "glassdoor": "https://www.glassdoor.com/Job/jobs.htm?sc.keyword=Meta%20Covington&locT=C&locId=Covington"
+    },
+    "open_positions": 0,
+    "last_updated": "2025-10-16T15:31:46.965147",
+    "hiring_status": "Unknown"
+  }
+}
