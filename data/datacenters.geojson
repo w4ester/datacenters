@@ -5,426 +5,1133 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "1",
         "name": "AWS Northern Virginia",
         "operator": "Amazon Web Services",
+        "city": "Ashburn",
+        "state": "VA",
+        "country": "USA",
         "status": "Existing",
         "capacity_mw": 450,
+        "facility_type": "Hyperscale",
+        "year_opened": 2006,
+        "size_sqft": 2000000,
+        "url": "https://aws.amazon.com/about-aws/global-infrastructure/",
+        "pue": 1.2,
+        "renewable_energy_pct": 100,
+        "water_usage_mgd": 8.5,
         "water_stress": "Medium",
-        "city": "Ashburn",
-        "state": "VA",
-        "url": "https://aws.amazon.com/about-aws/global-infrastructure/"
+        "cooling_type": "Evaporative + Air",
+        "carbon_intensity_gco2_kwh": 50,
+        "certifications": "Uptime Tier III",
+        "connectivity_providers": "Verizon,AT&T,Lumen",
+        "network_exchanges": "Equinix DC2-DC11",
+        "latency_zone_ms": "<5",
+        "cost_tier": "High",
+        "data_sovereignty": "US-Regional",
+        "education_pricing": "Yes",
+        "min_commitment_months": 1,
+        "api_access": "Yes",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": 15,
+        "notes": "Primary AWS US-East region, massive scale"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.4875, 39.0437]
+        "coordinates": [
+          -77.4875,
+          39.0437
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "2",
         "name": "Switch TAHOE RENO 1",
         "operator": "Switch",
+        "city": "Reno",
+        "state": "NV",
+        "country": "USA",
         "status": "Existing",
         "capacity_mw": 130,
+        "facility_type": "Colocation",
+        "year_opened": 2017,
+        "size_sqft": 1300000,
+        "url": "https://www.switch.com/tahoe-reno/",
+        "pue": 1.18,
+        "renewable_energy_pct": 100,
+        "water_usage_mgd": 2.1,
         "water_stress": "High",
-        "city": "Reno",
-        "state": "NV",
-        "url": "https://www.switch.com/tahoe-reno/"
+        "cooling_type": "Evaporative",
+        "carbon_intensity_gco2_kwh": 35,
+        "certifications": "LEED Gold; Uptime Tier IV",
+        "connectivity_providers": "Zayo,PacketFabric,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<10",
+        "data_sovereignty": "Medium",
+        "education_pricing": "US-West",
+        "min_commitment_months": "Yes",
+        "api_access": "12",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Yes",
+        "notes": "25",
+        "null": [
+          "100% renewable, low-cost power at 4.9c/kWh"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-119.8138, 39.5296]
+        "coordinates": [
+          -119.8138,
+          39.5296
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "3",
         "name": "Meta Monroe Data Center",
         "operator": "Meta",
-        "status": "Under Construction",
-        "capacity_mw": 750,
-        "water_stress": "Low",
         "city": "Monroe",
         "state": "LA",
-        "url": "https://datacenters.atmeta.com/"
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 750,
+        "facility_type": "Hyperscale",
+        "year_opened": 2030,
+        "size_sqft": 4000000,
+        "url": "https://datacenters.atmeta.com/",
+        "pue": 1.15,
+        "renewable_energy_pct": 80,
+        "water_usage_mgd": 15.2,
+        "water_stress": "Low",
+        "cooling_type": "Liquid + Air",
+        "carbon_intensity_gco2_kwh": 120,
+        "certifications": null,
+        "connectivity_providers": null,
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<15",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Only",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "35",
+        "null": [
+          "Meta's largest DC globally, AI-focused"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-92.1193, 32.5093]
+        "coordinates": [
+          -92.1193,
+          32.5093
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "4",
         "name": "Equinix Ashburn Campus",
         "operator": "Equinix",
-        "status": "Existing",
-        "capacity_mw": 280,
-        "water_stress": "Medium",
         "city": "Ashburn",
         "state": "VA",
-        "url": "https://www.equinix.com/data-centers/americas-colocation/united-states-colocation/washington-dc-data-centers"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 280,
+        "facility_type": "Colocation",
+        "year_opened": 2010,
+        "size_sqft": 850000,
+        "url": "https://www.equinix.com/",
+        "pue": 1.25,
+        "renewable_energy_pct": 75,
+        "water_usage_mgd": 6.3,
+        "water_stress": "Medium",
+        "cooling_type": "CRAC",
+        "carbon_intensity_gco2_kwh": 65,
+        "certifications": "Uptime Tier III, ISO 27001",
+        "connectivity_providers": "Multiple carriers",
+        "network_exchanges": "Equinix DC2",
+        "latency_zone_ms": "<5",
+        "cost_tier": "High",
+        "data_sovereignty": "Flexible",
+        "education_pricing": "Yes",
+        "min_commitment_months": 1,
+        "api_access": "Yes",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": 15,
+        "notes": "Premier interconnection hub, 150+ networks"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.4800, 39.0500]
+        "coordinates": [
+          -77.48,
+          39.05
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "5",
         "name": "Google Columbus Data Center",
         "operator": "Google",
-        "status": "Existing",
-        "capacity_mw": 320,
-        "water_stress": "Low",
         "city": "Columbus",
         "state": "OH",
-        "url": "https://www.google.com/about/datacenters/locations/columbus/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 320,
+        "facility_type": "Hyperscale",
+        "year_opened": 2019,
+        "size_sqft": 1500000,
+        "url": "https://www.google.com/about/datacenters/locations/columbus/",
+        "pue": 1.1,
+        "renewable_energy_pct": 95,
+        "water_usage_mgd": 5.8,
+        "water_stress": "Low",
+        "cooling_type": "Air + Economizer",
+        "carbon_intensity_gco2_kwh": 45,
+        "certifications": "LEED Platinum",
+        "connectivity_providers": "AT&T,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<8",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Only",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "5",
+        "null": [
+          "Near Ohio State, strong renewable energy"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-82.9988, 39.9612]
+        "coordinates": [
+          -82.9988,
+          39.9612
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "6",
         "name": "Meta Prineville Data Center",
         "operator": "Meta",
-        "status": "Existing",
-        "capacity_mw": 210,
-        "water_stress": "Low",
         "city": "Prineville",
         "state": "OR",
-        "url": "https://datacenters.atmeta.com/us-locations/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 210,
+        "facility_type": "Hyperscale",
+        "year_opened": 2011,
+        "size_sqft": 1200000,
+        "url": "https://datacenters.atmeta.com/us-locations/",
+        "pue": 1.09,
+        "renewable_energy_pct": 100,
+        "water_usage_mgd": 3.2,
+        "water_stress": "Low",
+        "cooling_type": "Evaporative",
+        "carbon_intensity_gco2_kwh": 25,
+        "certifications": "LEED Gold",
+        "connectivity_providers": "Zayo,CenturyLink",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<12",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Only",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "120",
+        "null": [
+          "First Meta DC with outdoor air cooling"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-120.8342, 44.2999]
+        "coordinates": [
+          -120.8342,
+          44.2999
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "7",
         "name": "CoreWeave Lancaster AI Campus",
         "operator": "CoreWeave",
-        "status": "Under Construction",
-        "capacity_mw": 480,
-        "water_stress": "Low",
         "city": "Lancaster",
         "state": "PA",
-        "url": ""
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 480,
+        "facility_type": "Hyperscale AI",
+        "year_opened": 2026,
+        "size_sqft": 2800000,
+        "url": null,
+        "pue": 1.15,
+        "renewable_energy_pct": 70,
+        "water_usage_mgd": 9.8,
+        "water_stress": "Low",
+        "cooling_type": "Liquid Immersion",
+        "carbon_intensity_gco2_kwh": 85,
+        "certifications": null,
+        "connectivity_providers": "Verizon,Zayo",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<10",
+        "data_sovereignty": "High",
+        "education_pricing": "US-East",
+        "min_commitment_months": "Possible",
+        "api_access": "6",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Yes",
+        "notes": "12",
+        "null": [
+          "Designed for GPU-intensive AI training"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-76.3055, 40.0379]
+        "coordinates": [
+          -76.3055,
+          40.0379
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "8",
         "name": "Stargate AI Campus Abilene",
         "operator": "Oracle/OpenAI",
-        "status": "Permitted",
-        "capacity_mw": 1000,
-        "water_stress": "Medium",
         "city": "Abilene",
         "state": "TX",
-        "url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-99.7331, 32.4487]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Meta El Paso Campus",
-        "operator": "Meta",
+        "country": "USA",
         "status": "Permitted",
         "capacity_mw": 1000,
-        "water_stress": "High",
+        "facility_type": "Hyperscale AI",
+        "year_opened": 2028,
+        "size_sqft": 5000000,
+        "url": null,
+        "pue": 1.2,
+        "renewable_energy_pct": 60,
+        "water_usage_mgd": 18.5,
+        "water_stress": "Medium",
+        "cooling_type": "Liquid",
+        "carbon_intensity_gco2_kwh": 95,
+        "certifications": null,
+        "connectivity_providers": "AT&T,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<15",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Only",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "25",
+        "null": [
+          "$40B investment, 1GW+ scale"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.7331,
+          32.4487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "9",
+        "name": "Meta El Paso Campus",
+        "operator": "Meta",
         "city": "El Paso",
         "state": "TX",
-        "url": "https://datacenters.atmeta.com/"
+        "country": "USA",
+        "status": "Permitted",
+        "capacity_mw": 1000,
+        "facility_type": "Hyperscale AI",
+        "year_opened": 2028,
+        "size_sqft": 4500000,
+        "url": "https://datacenters.atmeta.com/",
+        "pue": 1.18,
+        "renewable_energy_pct": 75,
+        "water_usage_mgd": 12.0,
+        "water_stress": "High",
+        "cooling_type": "Liquid + Dry",
+        "carbon_intensity_gco2_kwh": 110,
+        "certifications": null,
+        "connectivity_providers": "AT&T,Zayo",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<18",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Only",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "3",
+        "null": [
+          "Near UTEP, solar-powered"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-106.4850, 31.7619]
+        "coordinates": [
+          -106.485,
+          31.7619
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "10",
         "name": "Google Lincoln Data Center",
         "operator": "Google",
-        "status": "Under Construction",
-        "capacity_mw": 380,
-        "water_stress": "Low",
         "city": "Lincoln",
         "state": "NE",
-        "url": "https://www.google.com/about/datacenters/locations/lincoln/"
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 380,
+        "facility_type": "Hyperscale",
+        "year_opened": 2025,
+        "size_sqft": 1800000,
+        "url": "https://www.google.com/about/datacenters/locations/lincoln/",
+        "pue": 1.12,
+        "renewable_energy_pct": 90,
+        "water_usage_mgd": 4.5,
+        "water_stress": "Low",
+        "cooling_type": "Air",
+        "carbon_intensity_gco2_kwh": 50,
+        "certifications": null,
+        "connectivity_providers": "Lumen,Windstream",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<12",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Central",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "2",
+        "null": [
+          "$600M investment, near UNL"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.7026, 40.8136]
+        "coordinates": [
+          -96.7026,
+          40.8136
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "11",
         "name": "Google Mesa Data Center",
         "operator": "Google",
-        "status": "Under Construction",
-        "capacity_mw": 340,
-        "water_stress": "Extremely High",
         "city": "Mesa",
         "state": "AZ",
-        "url": "https://www.google.com/about/datacenters/"
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 340,
+        "facility_type": "Hyperscale",
+        "year_opened": 2026,
+        "size_sqft": 1600000,
+        "url": "https://www.google.com/about/datacenters/",
+        "pue": 1.08,
+        "renewable_energy_pct": 85,
+        "water_usage_mgd": 0.0,
+        "water_stress": "Extremely High",
+        "cooling_type": "Liquid (no water)",
+        "carbon_intensity_gco2_kwh": 95,
+        "certifications": null,
+        "connectivity_providers": "Zayo,CenturyLink",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<15",
+        "data_sovereignty": "High",
+        "education_pricing": "US-West",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "18",
+        "null": [
+          "Revolutionary zero-water cooling system"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-111.8315, 33.4152]
+        "coordinates": [
+          -111.8315,
+          33.4152
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "12",
         "name": "Microsoft Mount Pleasant Campus",
         "operator": "Microsoft",
-        "status": "Under Construction",
-        "capacity_mw": 290,
-        "water_stress": "Low",
         "city": "Mount Pleasant",
         "state": "WI",
-        "url": "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/"
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 290,
+        "facility_type": "Hyperscale",
+        "year_opened": 2025,
+        "size_sqft": 2200000,
+        "url": "https://azure.microsoft.com/",
+        "pue": 1.15,
+        "renewable_energy_pct": 80,
+        "water_usage_mgd": 7.2,
+        "water_stress": "Low",
+        "cooling_type": "Hybrid",
+        "carbon_intensity_gco2_kwh": 60,
+        "certifications": null,
+        "connectivity_providers": "AT&T,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<8",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Central",
+        "min_commitment_months": "Possible",
+        "api_access": "12",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Possible",
+        "notes": "35",
+        "null": [
+          "Azure availability zone expansion"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.8856, 42.7209]
+        "coordinates": [
+          -87.8856,
+          42.7209
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "13",
         "name": "Digital Realty Phoenix",
         "operator": "Digital Realty",
-        "status": "Existing",
-        "capacity_mw": 95,
-        "water_stress": "Extremely High",
         "city": "Phoenix",
         "state": "AZ",
-        "url": "https://www.digitalrealty.com/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 95,
+        "facility_type": "Colocation",
+        "year_opened": 2015,
+        "size_sqft": 450000,
+        "url": "https://www.digitalrealty.com/",
+        "pue": 1.28,
+        "renewable_energy_pct": 60,
+        "water_usage_mgd": 3.8,
+        "water_stress": "Extremely High",
+        "cooling_type": "Evaporative",
+        "carbon_intensity_gco2_kwh": 105,
+        "certifications": "Uptime Tier III, SOC 2",
+        "connectivity_providers": "Multiple carriers",
+        "network_exchanges": null,
+        "latency_zone_ms": "<12",
+        "cost_tier": "Medium",
+        "data_sovereignty": "Flexible",
+        "education_pricing": "Yes",
+        "min_commitment_months": 3,
+        "api_access": "Yes",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": 8,
+        "notes": "Strong network connectivity options"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-112.0740, 33.4484]
+        "coordinates": [
+          -112.074,
+          33.4484
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "14",
         "name": "Vantage Frontier Campus",
         "operator": "Vantage Data Centers",
-        "status": "Permitted",
-        "capacity_mw": 1400,
-        "water_stress": "Medium",
         "city": "Albany",
         "state": "TX",
-        "url": "https://vantage-dc.com/"
+        "country": "USA",
+        "status": "Permitted",
+        "capacity_mw": 1400,
+        "facility_type": "Hyperscale AI",
+        "year_opened": 2027,
+        "size_sqft": 6500000,
+        "url": "https://vantage-dc.com/",
+        "pue": 1.16,
+        "renewable_energy_pct": 70,
+        "water_usage_mgd": 25.0,
+        "water_stress": "Medium",
+        "cooling_type": "Liquid",
+        "carbon_intensity_gco2_kwh": 100,
+        "certifications": null,
+        "connectivity_providers": "AT&T,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<20",
+        "data_sovereignty": "Medium",
+        "education_pricing": "US-Central",
+        "min_commitment_months": "Possible",
+        "api_access": "12",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Possible",
+        "notes": "90",
+        "null": [
+          "$25B project, 10 facilities planned"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-99.2967, 32.7282]
+        "coordinates": [
+          -99.2967,
+          32.7282
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "15",
         "name": "Meta River Ridge Indiana",
         "operator": "Meta",
-        "status": "Under Construction",
-        "capacity_mw": 420,
-        "water_stress": "Low",
         "city": "Jeffersonville",
         "state": "IN",
-        "url": "https://datacenters.atmeta.com/"
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 420,
+        "facility_type": "Hyperscale",
+        "year_opened": 2026,
+        "size_sqft": 3200000,
+        "url": "https://datacenters.atmeta.com/",
+        "pue": 1.14,
+        "renewable_energy_pct": 85,
+        "water_usage_mgd": 8.9,
+        "water_stress": "Low",
+        "cooling_type": "Hybrid",
+        "carbon_intensity_gco2_kwh": 55,
+        "certifications": null,
+        "connectivity_providers": "AT&T,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<10",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Central",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "6",
+        "null": [
+          "Near Louisville, 619-acre campus"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-85.7372, 38.2776]
+        "coordinates": [
+          -85.7372,
+          38.2776
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "16",
         "name": "Applied Digital Polaris Forge 2",
         "operator": "Applied Digital",
-        "status": "Under Construction",
-        "capacity_mw": 280,
-        "water_stress": "Low",
         "city": "Harwood",
         "state": "ND",
-        "url": ""
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 280,
+        "facility_type": "HPC/AI",
+        "year_opened": 2026,
+        "size_sqft": 1500000,
+        "url": null,
+        "pue": 1.13,
+        "renewable_energy_pct": 75,
+        "water_usage_mgd": 5.5,
+        "water_stress": "Low",
+        "cooling_type": "Liquid",
+        "carbon_intensity_gco2_kwh": 65,
+        "certifications": null,
+        "connectivity_providers": "Midco,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<18",
+        "data_sovereignty": "Medium",
+        "education_pricing": "US-Central",
+        "min_commitment_months": "Possible",
+        "api_access": "6",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Yes",
+        "notes": "12",
+        "null": [
+          "$3B HPC-focused facility"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.9092, 46.9869]
+        "coordinates": [
+          -96.9092,
+          46.9869
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "17",
         "name": "Vantage Storey County Campus",
         "operator": "Vantage Data Centers",
-        "status": "Under Construction",
-        "capacity_mw": 224,
-        "water_stress": "High",
         "city": "Reno",
         "state": "NV",
-        "url": "https://vantage-dc.com/"
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 224,
+        "facility_type": "Colocation",
+        "year_opened": 2026,
+        "size_sqft": 1800000,
+        "url": "https://vantage-dc.com/",
+        "pue": 1.17,
+        "renewable_energy_pct": 95,
+        "water_usage_mgd": 2.8,
+        "water_stress": "High",
+        "cooling_type": "Evaporative",
+        "carbon_intensity_gco2_kwh": 30,
+        "certifications": "LEED pending",
+        "connectivity_providers": "Zayo,PacketFabric",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<10",
+        "data_sovereignty": "Medium",
+        "education_pricing": "US-West",
+        "min_commitment_months": "Yes",
+        "api_access": "6",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Yes",
+        "notes": "22",
+        "null": [
+          "137-acre campus, 4 buildings planned"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-119.7540, 39.4800]
+        "coordinates": [
+          -119.754,
+          39.48
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "18",
         "name": "CyrusOne Dallas",
         "operator": "CyrusOne",
-        "status": "Existing",
-        "capacity_mw": 155,
-        "water_stress": "Medium",
         "city": "Dallas",
         "state": "TX",
-        "url": "https://cyrusone.com/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 155,
+        "facility_type": "Colocation",
+        "year_opened": 2014,
+        "size_sqft": 650000,
+        "url": "https://cyrusone.com/",
+        "pue": 1.24,
+        "renewable_energy_pct": 65,
+        "water_usage_mgd": 5.2,
+        "water_stress": "Medium",
+        "cooling_type": "CRAC",
+        "carbon_intensity_gco2_kwh": 85,
+        "certifications": "Uptime Tier III, PCI DSS",
+        "connectivity_providers": "Multiple carriers",
+        "network_exchanges": null,
+        "latency_zone_ms": "<8",
+        "cost_tier": "Medium",
+        "data_sovereignty": "US-Central",
+        "education_pricing": "Yes",
+        "min_commitment_months": 6,
+        "api_access": "Yes",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": 12,
+        "notes": "DFW connectivity hub"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.7970, 32.7767]
+        "coordinates": [
+          -96.797,
+          32.7767
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "19",
         "name": "QTS Atlanta Metro",
         "operator": "QTS Realty Trust",
-        "status": "Existing",
-        "capacity_mw": 175,
-        "water_stress": "Medium",
         "city": "Atlanta",
         "state": "GA",
-        "url": "https://www.qtsdatacenters.com/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 175,
+        "facility_type": "Colocation",
+        "year_opened": 2016,
+        "size_sqft": 780000,
+        "url": "https://www.qtsdatacenters.com/",
+        "pue": 1.22,
+        "renewable_energy_pct": 70,
+        "water_usage_mgd": 6.1,
+        "water_stress": "Medium",
+        "cooling_type": "Hybrid",
+        "carbon_intensity_gco2_kwh": 75,
+        "certifications": "Uptime Tier III",
+        "connectivity_providers": "AT&T,Lumen,Zayo",
+        "network_exchanges": null,
+        "latency_zone_ms": "<10",
+        "cost_tier": "Medium",
+        "data_sovereignty": "US-Southeast",
+        "education_pricing": "Yes",
+        "min_commitment_months": 3,
+        "api_access": "Yes",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": 8,
+        "notes": "Strong carrier-neutral facility"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.3880, 33.7490]
+        "coordinates": [
+          -84.388,
+          33.749
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "20",
         "name": "Atlas Coweta County Campus",
         "operator": "Atlas Development",
-        "status": "Permitted",
-        "capacity_mw": 850,
-        "water_stress": "Medium",
         "city": "Newnan",
         "state": "GA",
-        "url": ""
+        "country": "USA",
+        "status": "Permitted",
+        "capacity_mw": 850,
+        "facility_type": "Hyperscale",
+        "year_opened": 2027,
+        "size_sqft": 4900000,
+        "url": null,
+        "pue": 1.19,
+        "renewable_energy_pct": 65,
+        "water_usage_mgd": 16.8,
+        "water_stress": "Medium",
+        "cooling_type": "Hybrid",
+        "carbon_intensity_gco2_kwh": 90,
+        "certifications": null,
+        "connectivity_providers": "AT&T,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<12",
+        "data_sovereignty": "Medium",
+        "education_pricing": "US-Southeast",
+        "min_commitment_months": "Possible",
+        "api_access": "12",
+        "edge_compute": "Possible",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Possible",
+        "notes": "25",
+        "null": [
+          "$17B investment, 13 buildings, 832 acres"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.7999, 33.3807]
+        "coordinates": [
+          -84.7999,
+          33.3807
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "21",
         "name": "STACK Infrastructure Chicago",
         "operator": "STACK Infrastructure",
-        "status": "Existing",
-        "capacity_mw": 185,
-        "water_stress": "Low",
         "city": "Chicago",
         "state": "IL",
-        "url": "https://www.stackinfra.com/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 185,
+        "facility_type": "Colocation",
+        "year_opened": 2018,
+        "size_sqft": 820000,
+        "url": "https://www.stackinfra.com/",
+        "pue": 1.21,
+        "renewable_energy_pct": 80,
+        "water_usage_mgd": 6.8,
+        "water_stress": "Low",
+        "cooling_type": "Hybrid",
+        "carbon_intensity_gco2_kwh": 70,
+        "certifications": "Uptime Tier III",
+        "connectivity_providers": "Multiple carriers",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<6",
+        "data_sovereignty": "Medium",
+        "education_pricing": "US-Central",
+        "min_commitment_months": "Yes",
+        "api_access": "3",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Yes",
+        "notes": "2",
+        "null": [
+          "Near Northwestern, strong education presence"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.6298, 41.8781]
+        "coordinates": [
+          -87.6298,
+          41.8781
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "22",
         "name": "Microsoft Des Moines",
         "operator": "Microsoft",
-        "status": "Existing",
-        "capacity_mw": 265,
-        "water_stress": "Low",
         "city": "Des Moines",
         "state": "IA",
-        "url": "https://azure.microsoft.com/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 265,
+        "facility_type": "Hyperscale",
+        "year_opened": 2020,
+        "size_sqft": 1900000,
+        "url": "https://azure.microsoft.com/",
+        "pue": 1.13,
+        "renewable_energy_pct": 88,
+        "water_usage_mgd": 5.9,
+        "water_stress": "Low",
+        "cooling_type": "Air",
+        "carbon_intensity_gco2_kwh": 48,
+        "certifications": null,
+        "connectivity_providers": "Lumen,Windstream",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<12",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Central",
+        "min_commitment_months": "Possible",
+        "api_access": "12",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Possible",
+        "notes": "15",
+        "null": [
+          "Azure US-Central availability zone"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-93.6091, 41.5868]
+        "coordinates": [
+          -93.6091,
+          41.5868
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "23",
         "name": "Amazon Salem AI Campus",
         "operator": "Amazon Web Services",
-        "status": "Under Construction",
-        "capacity_mw": 620,
-        "water_stress": "Low",
         "city": "Salem",
         "state": "PA",
-        "url": "https://aws.amazon.com/"
+        "country": "USA",
+        "status": "Under Construction",
+        "capacity_mw": 620,
+        "facility_type": "Hyperscale AI",
+        "year_opened": 2027,
+        "size_sqft": 3800000,
+        "url": "https://aws.amazon.com/",
+        "pue": 1.16,
+        "renewable_energy_pct": 75,
+        "water_usage_mgd": 11.5,
+        "water_stress": "Low",
+        "cooling_type": "Liquid",
+        "carbon_intensity_gco2_kwh": 68,
+        "certifications": null,
+        "connectivity_providers": "Verizon,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<8",
+        "data_sovereignty": "High",
+        "education_pricing": "US-East",
+        "min_commitment_months": "Yes",
+        "api_access": "3",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": "Possible",
+        "notes": "8",
+        "null": [
+          "$20B Pennsylvania AI investment"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-75.4646, 40.7901]
+        "coordinates": [
+          -75.4646,
+          40.7901
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "24",
         "name": "CoreSite Silicon Valley",
         "operator": "CoreSite",
-        "status": "Existing",
-        "capacity_mw": 145,
-        "water_stress": "High",
         "city": "Santa Clara",
         "state": "CA",
-        "url": "https://www.coresite.com/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 145,
+        "facility_type": "Colocation",
+        "year_opened": 2012,
+        "size_sqft": 580000,
+        "url": "https://www.coresite.com/",
+        "pue": 1.26,
+        "renewable_energy_pct": 70,
+        "water_usage_mgd": 4.2,
+        "water_stress": "High",
+        "cooling_type": "CRAC",
+        "carbon_intensity_gco2_kwh": 82,
+        "certifications": "Uptime Tier III",
+        "connectivity_providers": "Multiple carriers",
+        "network_exchanges": "Any2 Silicon Valley",
+        "latency_zone_ms": "<5",
+        "cost_tier": "High",
+        "data_sovereignty": "US-West",
+        "education_pricing": "Yes",
+        "min_commitment_months": 1,
+        "api_access": "Yes",
+        "edge_compute": "Yes",
+        "suitable_small_workloads": "Yes",
+        "nearest_university_miles": 3,
+        "notes": "Heart of Silicon Valley, near Stanford"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.9552, 37.3541]
+        "coordinates": [
+          -121.9552,
+          37.3541
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
+        "id": "25",
         "name": "Meta Stanton Springs",
         "operator": "Meta",
-        "status": "Existing",
-        "capacity_mw": 240,
-        "water_stress": "Medium",
         "city": "Covington",
         "state": "GA",
-        "url": "https://datacenters.atmeta.com/"
+        "country": "USA",
+        "status": "Existing",
+        "capacity_mw": 240,
+        "facility_type": "Hyperscale",
+        "year_opened": 2018,
+        "size_sqft": 1500000,
+        "url": "https://datacenters.atmeta.com/",
+        "pue": 1.12,
+        "renewable_energy_pct": 85,
+        "water_usage_mgd": 7.3,
+        "water_stress": "Medium",
+        "cooling_type": "Hybrid",
+        "carbon_intensity_gco2_kwh": 62,
+        "certifications": null,
+        "connectivity_providers": "AT&T,Lumen",
+        "network_exchanges": null,
+        "latency_zone_ms": null,
+        "cost_tier": "<12",
+        "data_sovereignty": "High",
+        "education_pricing": "US-Southeast",
+        "min_commitment_months": "No",
+        "api_access": null,
+        "edge_compute": null,
+        "suitable_small_workloads": "No",
+        "nearest_university_miles": "No",
+        "notes": "45",
+        "null": [
+          "Early Meta AI training facility"
+        ]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-83.8602, 33.5968]
+        "coordinates": [
+          -83.8602,
+          33.5968
+        ]
       }
     }
   ]
