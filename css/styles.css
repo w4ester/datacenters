@@ -130,22 +130,32 @@ body {
 
 /* Marker dots via DivIcon */
 .marker-dot {
-  width: 24px;
-  height: 24px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  border: 3px solid white;
-  box-shadow: 0 0 0 2px rgba(0,0,0,0.3), 0 2px 8px rgba(0,0,0,0.2);
+  border: 4px solid white;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.4), 0 4px 12px rgba(0,0,0,0.3);
   cursor: pointer;
   transition: all 0.2s ease;
 }
 .marker-dot:hover {
-  transform: scale(1.3);
-  box-shadow: 0 0 0 3px rgba(255,255,255,0.8), 0 4px 16px rgba(0,0,0,0.4);
+  transform: scale(1.25);
+  box-shadow: 0 0 0 4px rgba(255,255,255,0.9), 0 6px 20px rgba(0,0,0,0.5);
   z-index: 1000;
+  filter: brightness(1.2);
 }
-.marker-existing { background: var(--existing); }
-.marker-permitted { background: var(--permitted); }
-.marker-construction { background: var(--construction); }
+.marker-existing {
+  background: #23c55e;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.4), 0 4px 12px rgba(35, 197, 94, 0.5);
+}
+.marker-permitted {
+  background: #f59e0b;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.4), 0 4px 12px rgba(245, 158, 11, 0.5);
+}
+.marker-construction {
+  background: #ef4444;
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.4), 0 4px 12px rgba(239, 68, 68, 0.5);
+}
 
 /* Popup content - Enhanced UI */
 .leaflet-popup-content-wrapper {
