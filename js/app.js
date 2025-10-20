@@ -208,9 +208,9 @@ function dotIcon(status) {
   return L.divIcon({
     html: `<span class="marker-dot ${cls}"></span>`,
     className: '', // remove default class
-    iconSize: [14, 14],
-    iconAnchor: [7, 7],
-    popupAnchor: [0, -7]
+    iconSize: [28, 28],
+    iconAnchor: [14, 14],
+    popupAnchor: [0, -14]
   });
 }
 
